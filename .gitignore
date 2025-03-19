@@ -1,3 +1,5 @@
 /.idea/
 /**/.env
 .env
+/**/.terraform.lock.hcl
+/**/.terraform/

@@ -3,7 +3,7 @@ provider "yandex" {
 
 
 resource "yandex_mdb_clickhouse_cluster" "clickhouse_demo" {
-  name                    = "clickhouse_starschema"
+  name                    = "clickhouse_demo"
   environment             = "PRESTABLE"
   network_id              = yandex_vpc_network.default_network.id
   sql_database_management = true
